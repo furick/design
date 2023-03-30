@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T11:19:12.985Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="vYrF2wQ0UMvIZtEYUx_e" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T11:20:34.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="OeL0VpOuYoIahJ2FdZaQ" version="21.0.6" type="github">
   <diagram name="Page-1" id="c9db0220-8083-56f3-ca83-edcdcd058819">
     <mxGraphModel dx="1434" dy="2462.5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -266,10 +266,10 @@
           <mxGeometry x="399" y="-578.75" width="10" height="7.5" as="geometry" />
         </mxCell>
         <mxCell id="YEJQcfe5Q2mPv-iMAkUI-189" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="50" y="-980" width="253" height="120" as="geometry" />
+          <mxGeometry x="50" y="-980" width="380" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YEJQcfe5Q2mPv-iMAkUI-190" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YEJQcfe5Q2mPv-iMAkUI-189">
-          <mxGeometry width="253" height="40" as="geometry" />
+          <mxGeometry width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YEJQcfe5Q2mPv-iMAkUI-192" value="库名" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="YEJQcfe5Q2mPv-iMAkUI-190">
           <mxGeometry width="126" height="40" as="geometry">
@@ -281,8 +281,13 @@
             <mxRectangle width="127" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YEJQcfe5Q2mPv-iMAkUI-203" value="存储管理员" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="YEJQcfe5Q2mPv-iMAkUI-190">
+          <mxGeometry x="253" width="127" height="40" as="geometry">
+            <mxRectangle width="127" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YEJQcfe5Q2mPv-iMAkUI-194" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YEJQcfe5Q2mPv-iMAkUI-189">
-          <mxGeometry y="40" width="253" height="40" as="geometry" />
+          <mxGeometry y="40" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YEJQcfe5Q2mPv-iMAkUI-196" value="AssetHub_Atc" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="YEJQcfe5Q2mPv-iMAkUI-194">
           <mxGeometry width="126" height="40" as="geometry">
@@ -294,8 +299,13 @@
             <mxRectangle width="127" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YEJQcfe5Q2mPv-iMAkUI-204" value="richardfu, bytian" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="YEJQcfe5Q2mPv-iMAkUI-194">
+          <mxGeometry x="253" width="127" height="40" as="geometry">
+            <mxRectangle width="127" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YEJQcfe5Q2mPv-iMAkUI-198" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YEJQcfe5Q2mPv-iMAkUI-189">
-          <mxGeometry y="80" width="253" height="40" as="geometry" />
+          <mxGeometry y="80" width="380" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YEJQcfe5Q2mPv-iMAkUI-200" value="&amp;nbsp;AssetHub_APG" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="YEJQcfe5Q2mPv-iMAkUI-198">
           <mxGeometry width="126" height="40" as="geometry">
@@ -307,8 +317,16 @@
             <mxRectangle width="127" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YEJQcfe5Q2mPv-iMAkUI-205" value="xxx" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="YEJQcfe5Q2mPv-iMAkUI-198">
+          <mxGeometry x="253" width="127" height="40" as="geometry">
+            <mxRectangle width="127" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YEJQcfe5Q2mPv-iMAkUI-202" value="存储库管理" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;strokeColor=none;fillColor=none;fontColor=#999999;align=left;spacingLeft=5;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="-1340" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YEJQcfe5Q2mPv-iMAkUI-206" value="绑定“上海腾大存储”的库" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rect;strokeColor=none;fillColor=none;fontColor=#999999;align=left;spacingLeft=5;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-1020" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
