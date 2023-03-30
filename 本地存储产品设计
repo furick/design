@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-30T11:26:27.251Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="GjBF04rWWc-YmJC_2E7Z" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-30T12:18:05.869Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="te42i8bM-wC9tmPjLX41" version="21.0.6" type="github">
   <diagram name="Page-1" id="c9db0220-8083-56f3-ca83-edcdcd058819">
     <mxGraphModel dx="1434" dy="2462.5" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -312,12 +312,6 @@
         </mxCell>
         <mxCell id="YEJQcfe5Q2mPv-iMAkUI-207" value="添加库绑定" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;fontSize=16;fillColor=#3D8BCD;strokeColor=none;fontColor=#ffffff;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="460" y="-1380" width="85" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YEJQcfe5Q2mPv-iMAkUI-214" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="-1500" as="sourcePoint" />
-            <mxPoint x="370" y="-1370" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="YEJQcfe5Q2mPv-iMAkUI-215" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="60" y="-1020" width="380" height="390" as="geometry" />
