@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T03:25:39.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qq7E3fX9XYIwD_KQIIbm" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T03:28:26.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="khYpSnXMD56_bRxp_G2b" version="21.0.6" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
-    <mxGraphModel dx="2610" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3088" dy="1882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -135,6 +135,11 @@
         <mxCell id="IynW-cATV-pzJD-m26w4-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-10" target="IynW-cATV-pzJD-m26w4-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-88" value="增量文件同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-45">
+          <mxGeometry x="-0.45" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-10" target="2hHQCEHZhG925bIhgHVo-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -155,11 +160,11 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-30" y="910" />
-              <mxPoint x="-30" y="580" />
+              <mxPoint x="-30" y="575" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IynW-cATV-pzJD-m26w4-86" value="上报本地存储的心跳" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-85">
+        <mxCell id="IynW-cATV-pzJD-m26w4-86" value="上报本地存储心跳&lt;br&gt;上报" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-85">
           <mxGeometry x="-0.3008" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -248,6 +253,21 @@
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-36" value="通过配置、本地存储状态&lt;br&gt;生成COS签名或本地存储签名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-200" y="70" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.495;entryY=0.922;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="IynW-cATV-pzJD-m26w4-43" target="2hHQCEHZhG925bIhgHVo-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-150" y="520" />
+              <mxPoint x="30" y="520" />
+              <mxPoint x="30" y="-140" />
+              <mxPoint x="-6" y="-140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-90" value="上报本地存储心跳&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;上报" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-89">
+          <mxGeometry x="-0.6386" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-43" value="haproxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-200" y="550" width="100" height="50" as="geometry" />
