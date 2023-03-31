@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T03:18:41.206Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="wLT8H9lHXxhWsdztsNOJ" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T03:19:52.224Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="DLFIdkMVrXd9CzL8Q-QI" version="21.0.6" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
     <mxGraphModel dx="4522" dy="2595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,11 +29,6 @@
               <mxPoint x="80" y="330" />
               <mxPoint x="-150" y="330" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IynW-cATV-pzJD-m26w4-80" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-79">
-          <mxGeometry x="0.3973" y="-4" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-81" value="投递转换任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-79">
@@ -138,8 +133,8 @@
               <mxPoint x="-60" y="765" />
               <mxPoint x="-30" y="765" />
               <mxPoint x="-30" y="190" />
-              <mxPoint x="125" y="190" />
-              <mxPoint x="125" y="-235" />
+              <mxPoint x="140" y="190" />
+              <mxPoint x="140" y="-235" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -265,7 +260,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-68" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-90" y="-430" width="210" height="240" as="geometry" />
+          <mxGeometry x="-110" y="-430" width="210" height="240" as="geometry" />
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-5" value="StorageProxy" style="rounded=1;whiteSpace=wrap;html=1;" parent="IynW-cATV-pzJD-m26w4-68" vertex="1">
           <mxGeometry y="150" width="210" height="90" as="geometry" />
