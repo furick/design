@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T02:01:25.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Qo2HlMC9KQGQoX-EjjXC" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T02:42:10.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="IjNapStHITb6VPbfQsO9" version="21.0.6" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
-    <mxGraphModel dx="2261" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3088" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,25 +31,46 @@
           <mxGeometry x="560" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-5" value="StorageProxy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-70" y="70" width="210" height="90" as="geometry" />
+          <mxGeometry x="20" y="70" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-6" value="自建 S3 Storage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-690" y="780" width="210" height="90" as="geometry" />
+          <mxGeometry x="-650" y="720" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-7" value="Dynamic Converter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="720" width="210" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-8" target="2hHQCEHZhG925bIhgHVo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-31" value="获取文件访问签名" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-30">
+          <mxGeometry x="-0.2967" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-8" value="Client" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-690" y="560" width="210" height="90" as="geometry" />
+          <mxGeometry x="-900" y="540" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-9" value="COS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-600" y="280" width="210" height="90" as="geometry" />
+          <mxGeometry x="-460" y="290" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-37" value="增量文件同步" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-10" target="2hHQCEHZhG925bIhgHVo-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-185" y="440" />
+              <mxPoint x="-60" y="440" />
+              <mxPoint x="-60" y="190" />
+              <mxPoint x="125" y="190" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-10" value="Edge Agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-290" y="720" width="210" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-11" target="2hHQCEHZhG925bIhgHVo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-11" value="Data Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-380" y="70" width="210" height="90" as="geometry" />
+          <mxGeometry x="-440" y="70" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=block;startFill=1;" edge="1" parent="1" source="IynW-cATV-pzJD-m26w4-1" target="2hHQCEHZhG925bIhgHVo-3">
           <mxGeometry relative="1" as="geometry" />
@@ -137,6 +158,18 @@
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-28" value="边缘服务发布" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="124.5" y="-40" as="sourcePoint" />
+            <mxPoint x="124.5" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-34" value="配置库、账号的本地存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-80" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-36" value="通过配置、本地存储状态&lt;br&gt;生成COS签名或本地存储签名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="70" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
