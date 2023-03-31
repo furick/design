@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T02:42:10.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="IjNapStHITb6VPbfQsO9" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T02:43:54.614Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pzry84BeYMc9PctNMA8a" version="21.0.6" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
     <mxGraphModel dx="3088" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,7 +33,10 @@
         <mxCell id="2hHQCEHZhG925bIhgHVo-5" value="StorageProxy" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="70" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="2hHQCEHZhG925bIhgHVo-6" value="自建 S3 Storage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="IynW-cATV-pzJD-m26w4-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-6" target="2hHQCEHZhG925bIhgHVo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2hHQCEHZhG925bIhgHVo-6" value="自建 S3 Storage&lt;br&gt;MinIO&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-650" y="720" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-7" value="Dynamic Converter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -53,7 +56,7 @@
         <mxCell id="2hHQCEHZhG925bIhgHVo-9" value="COS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-460" y="290" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="IynW-cATV-pzJD-m26w4-37" value="增量文件同步" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-10" target="2hHQCEHZhG925bIhgHVo-5">
+        <mxCell id="IynW-cATV-pzJD-m26w4-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-10" target="2hHQCEHZhG925bIhgHVo-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-185" y="440" />
@@ -61,6 +64,19 @@
               <mxPoint x="-60" y="190" />
               <mxPoint x="125" y="190" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-42" value="上报本地存储的心跳" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-37">
+          <mxGeometry x="-0.0195" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.467;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-10" target="2hHQCEHZhG925bIhgHVo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-39" value="增量文件同步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-38">
+          <mxGeometry x="0.5476" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-10" value="Edge Agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
