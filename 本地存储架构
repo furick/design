@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T01:59:29.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="9yHAbQU6R7IZlk3eRYyr" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T02:01:25.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Qo2HlMC9KQGQoX-EjjXC" version="21.0.6" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
     <mxGraphModel dx="2261" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
           <mxGeometry x="-70" y="70" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-6" value="自建 S3 Storage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-350" y="810" width="210" height="90" as="geometry" />
+          <mxGeometry x="-690" y="780" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-7" value="Dynamic Converter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="720" width="210" height="90" as="geometry" />
@@ -46,7 +46,7 @@
           <mxGeometry x="-600" y="280" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-10" value="Edge Agent" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-360" y="610" width="210" height="90" as="geometry" />
+          <mxGeometry x="-290" y="720" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-11" value="Data Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-380" y="70" width="210" height="90" as="geometry" />
@@ -64,6 +64,31 @@
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;startArrow=block;startFill=1;" edge="1" parent="1" source="IynW-cATV-pzJD-m26w4-2" target="2hHQCEHZhG925bIhgHVo-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IynW-cATV-pzJD-m26w4-2" target="2hHQCEHZhG925bIhgHVo-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="880" />
+              <mxPoint x="295" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IynW-cATV-pzJD-m26w4-2" target="2hHQCEHZhG925bIhgHVo-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="880" />
+              <mxPoint x="585" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;" edge="1" parent="1" source="IynW-cATV-pzJD-m26w4-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-190" y="810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="880" />
+              <mxPoint x="-190" y="880" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-2" value="Edge Core" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="15" y="585" width="210" height="90" as="geometry" />
@@ -102,6 +127,16 @@
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-19" value="haproxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;" edge="1" parent="1" source="IynW-cATV-pzJD-m26w4-2" target="IynW-cATV-pzJD-m26w4-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="675" as="sourcePoint" />
+            <mxPoint x="-190" y="810" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-28" value="边缘服务发布" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="810" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
