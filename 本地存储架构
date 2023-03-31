@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T03:51:45.382Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="qGOD68dOJDKU8Em4IpHv" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T06:16:38.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="nfeUbR2dqhK_2JApqska" version="21.0.6" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
-    <mxGraphModel dx="4522" dy="2595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4522" dy="2709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-570" y="-320" width="1220" height="520" as="geometry" />
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-97" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-465" y="300" width="455" height="150" as="geometry" />
+          <mxGeometry x="-465" y="280" width="455" height="170" as="geometry" />
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-93" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-590" y="680" width="1510" height="380" as="geometry" />
@@ -86,7 +86,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IynW-cATV-pzJD-m26w4-82" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;获取文件&lt;br&gt;访问签名&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-30">
+        <mxCell id="IynW-cATV-pzJD-m26w4-82" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;获取文件&lt;br&gt;访问签名&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-30">
           <mxGeometry x="-0.1093" y="-6" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -114,15 +114,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IynW-cATV-pzJD-m26w4-78" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;上报本地存储&lt;br&gt;访问是否可达&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-48">
+        <mxCell id="IynW-cATV-pzJD-m26w4-78" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;上报本地存储&lt;br&gt;访问是否可达&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-48">
           <mxGeometry x="0.1781" y="6" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
+            <mxPoint x="11" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-8" target="2hHQCEHZhG925bIhgHVo-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IynW-cATV-pzJD-m26w4-53" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;本地存储可达，&lt;br&gt;访问本地存储&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-52">
+        <mxCell id="IynW-cATV-pzJD-m26w4-53" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;本地存储可达，&lt;br&gt;访问本地存储&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-52">
           <mxGeometry x="-0.5179" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -130,7 +130,7 @@
         <mxCell id="IynW-cATV-pzJD-m26w4-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.003;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-8" target="2hHQCEHZhG925bIhgHVo-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IynW-cATV-pzJD-m26w4-84" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;本地存储不可达，&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;访问COS&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-83">
+        <mxCell id="IynW-cATV-pzJD-m26w4-84" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;本地存储不可达，&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;访问COS&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-83">
           <mxGeometry x="-0.7088" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -144,7 +144,7 @@
         <mxCell id="IynW-cATV-pzJD-m26w4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.467;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IynW-cATV-pzJD-m26w4-43" target="2hHQCEHZhG925bIhgHVo-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IynW-cATV-pzJD-m26w4-39" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;增量文件&lt;br&gt;同步&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-38">
+        <mxCell id="IynW-cATV-pzJD-m26w4-39" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;增量文件&lt;br&gt;同步&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-38">
           <mxGeometry x="0.5476" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -270,7 +270,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IynW-cATV-pzJD-m26w4-90" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;上报本地存储&lt;br&gt;心跳上报&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-89">
+        <mxCell id="IynW-cATV-pzJD-m26w4-90" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;上报本地存储&lt;br&gt;心跳上报&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-89">
           <mxGeometry x="-0.6386" y="1" relative="1" as="geometry">
             <mxPoint x="36" y="-29" as="offset" />
           </mxGeometry>
@@ -329,7 +329,7 @@
           <mxGeometry x="680" y="1020" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-98" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;云组件&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="260" width="100" height="30" as="geometry" />
+          <mxGeometry x="-440" y="290" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-100" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 26px;&quot;&gt;TencentCloud&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-465" y="-290" width="60" height="30" as="geometry" />
