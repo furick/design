@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T02:59:28.843Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="c935_27urQj65v6usXtt" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T03:01:13.226Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="F7pOuJxRYEq6rLPDczDg" version="21.0.6" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
     <mxGraphModel dx="3088" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IynW-cATV-pzJD-m26w4-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-1" target="IynW-cATV-pzJD-m26w4-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="775" />
+              <mxPoint x="460" y="890" />
+              <mxPoint x="830" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-1" value="Static Converter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="730" width="200" height="90" as="geometry" />
         </mxCell>
@@ -39,8 +48,16 @@
         <mxCell id="2hHQCEHZhG925bIhgHVo-6" value="自建 S3 Storage&lt;br&gt;MinIO&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-650" y="720" width="210" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-7" target="IynW-cATV-pzJD-m26w4-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-67" value="上报转换结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-65">
+          <mxGeometry x="0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-7" value="Dynamic Converter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="720" width="210" height="90" as="geometry" />
+          <mxGeometry x="530" y="730" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="1" source="2hHQCEHZhG925bIhgHVo-8" target="2hHQCEHZhG925bIhgHVo-11">
           <mxGeometry relative="1" as="geometry" />
@@ -224,6 +241,12 @@
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-49" value="上报本地存储访问是否可达" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-475" y="455" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IynW-cATV-pzJD-m26w4-62" target="2hHQCEHZhG925bIhgHVo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-62" value="haproxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
