@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T02:57:17.061Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jbtAjBpV2fL5gtMB8425" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-31T02:57:58.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="i02aVcwkbe9Jl_QVZJzO" version="21.0.6" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
     <mxGraphModel dx="3088" dy="1939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,16 +146,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IynW-cATV-pzJD-m26w4-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IynW-cATV-pzJD-m26w4-2" target="2hHQCEHZhG925bIhgHVo-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="120" y="880" />
-              <mxPoint x="585" y="880" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IynW-cATV-pzJD-m26w4-54" value="边缘服务发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-26">
-          <mxGeometry x="-0.6892" relative="1" as="geometry">
+        <mxCell id="IynW-cATV-pzJD-m26w4-55" value="边缘服务发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-25">
+          <mxGeometry x="-0.7689" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -167,6 +159,14 @@
               <mxPoint x="120" y="880" />
               <mxPoint x="-190" y="880" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IynW-cATV-pzJD-m26w4-2" target="2hHQCEHZhG925bIhgHVo-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IynW-cATV-pzJD-m26w4-57" value="动态pod调度" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-56">
+          <mxGeometry x="0.3911" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-2" value="Edge Core" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
