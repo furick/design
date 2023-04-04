@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T07:58:22.203Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="5xpOMrxpW9B1UZoFMnwt" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T08:12:09.220Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="1vO081tFp1WxhELDLaXr" version="21.1.4" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
-    <mxGraphModel dx="3088" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3566" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -265,6 +265,85 @@
         </mxCell>
         <mxCell id="8BzjSbciPG6FjHRtyO9h-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1. 加速机房部署自建的S3存储，用于用户本地上传、下载加速&lt;br&gt;2. 用户如果可访问加速存储，则通过加速存储进行上传、下载行为&lt;br&gt;3. 用户如果无法访问加速存储，则访问远端COS存储&lt;br&gt;4. 加速机房通过s3 sync服务将本地文件同步到远端COS存储&lt;br&gt;5. 本地有边缘计算的需求，主要用于为arthub本地文件提供预览文件的转换生成、解压用户上传的压缩包等需求。这些服务依赖云端Cloud Core和本地的Edge Core服务协同，通过云端的k8s命令进行部署更新&lt;br&gt;6. 本地机房无法直接访问到云环境，目前通过devcloud上部署的proxy转发请求&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-930" y="40" width="720" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#76608a;strokeColor=#432D57;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-516" y="850" as="sourcePoint" />
+            <mxPoint x="-660" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1000" y="1180" width="1230" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry width="1230" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-11" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;fillColor=#6d8764;strokeColor=#3A5431;" edge="1" parent="VNvTYN1yvB8yNp_CZ_hL-20" source="VNvTYN1yvB8yNp_CZ_hL-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-2" value="NGINX" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry x="240" y="234" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-3" value="MinIO 1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry x="680" y="14" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="VNvTYN1yvB8yNp_CZ_hL-20" source="VNvTYN1yvB8yNp_CZ_hL-2" target="VNvTYN1yvB8yNp_CZ_hL-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="279" />
+              <mxPoint x="590" y="59" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-4" value="MinIO 2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry x="675" y="174" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="VNvTYN1yvB8yNp_CZ_hL-20" source="VNvTYN1yvB8yNp_CZ_hL-2" target="VNvTYN1yvB8yNp_CZ_hL-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="279" />
+              <mxPoint x="590" y="219" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-5" value="MinIO 3" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry x="670" y="334" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="VNvTYN1yvB8yNp_CZ_hL-20" source="VNvTYN1yvB8yNp_CZ_hL-2" target="VNvTYN1yvB8yNp_CZ_hL-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="591" y="279" />
+              <mxPoint x="591" y="379" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-6" value="MinIO 4" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry x="675" y="484" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="VNvTYN1yvB8yNp_CZ_hL-20" source="VNvTYN1yvB8yNp_CZ_hL-2" target="VNvTYN1yvB8yNp_CZ_hL-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="279" />
+              <mxPoint x="590" y="529" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;对外提供服务&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry x="90" y="239" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;负载均衡&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry x="459" y="234" width="90" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-15" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;每台机器部署一个MinIO服务&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry x="940" y="254" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry x="900" y="40" width="20" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-19" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;本地存储架构&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry x="90" y="90" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
