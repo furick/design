@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T08:12:09.220Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="1vO081tFp1WxhELDLaXr" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T08:14:22.182Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="IC2cC2rId_X073hPMxiX" version="21.1.4" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
     <mxGraphModel dx="3566" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -273,77 +273,77 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-20" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-1000" y="1180" width="1230" height="620" as="geometry" />
+          <mxGeometry x="-950" y="1180" width="1130" height="590" as="geometry" />
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
-          <mxGeometry width="1230" height="620" as="geometry" />
+          <mxGeometry width="1130" height="590" as="geometry" />
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-11" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;fillColor=#6d8764;strokeColor=#3A5431;" edge="1" parent="VNvTYN1yvB8yNp_CZ_hL-20" source="VNvTYN1yvB8yNp_CZ_hL-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="280" as="targetPoint" />
+            <mxPoint x="64.3089430894309" y="266.4516129032258" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-2" value="NGINX" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
-          <mxGeometry x="240" y="234" width="180" height="90" as="geometry" />
+          <mxGeometry x="220.4878048780488" y="222.67741935483872" width="165.3658536585366" height="85.64516129032259" as="geometry" />
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-3" value="MinIO 1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
-          <mxGeometry x="680" y="14" width="180" height="90" as="geometry" />
+          <mxGeometry x="624.7154471544716" y="13.322580645161292" width="165.3658536585366" height="85.64516129032259" as="geometry" />
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="VNvTYN1yvB8yNp_CZ_hL-20" source="VNvTYN1yvB8yNp_CZ_hL-2" target="VNvTYN1yvB8yNp_CZ_hL-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="279" />
-              <mxPoint x="590" y="59" />
+              <mxPoint x="542.0325203252032" y="265.5" />
+              <mxPoint x="542.0325203252032" y="56.145161290322584" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-4" value="MinIO 2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
-          <mxGeometry x="675" y="174" width="180" height="90" as="geometry" />
+          <mxGeometry x="620.1219512195122" y="165.58064516129033" width="165.3658536585366" height="85.64516129032259" as="geometry" />
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="VNvTYN1yvB8yNp_CZ_hL-20" source="VNvTYN1yvB8yNp_CZ_hL-2" target="VNvTYN1yvB8yNp_CZ_hL-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="279" />
-              <mxPoint x="590" y="219" />
+              <mxPoint x="542.0325203252032" y="265.5" />
+              <mxPoint x="542.0325203252032" y="208.40322580645162" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-5" value="MinIO 3" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
-          <mxGeometry x="670" y="334" width="180" height="90" as="geometry" />
+          <mxGeometry x="615.5284552845528" y="317.8387096774194" width="165.3658536585366" height="85.64516129032259" as="geometry" />
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="VNvTYN1yvB8yNp_CZ_hL-20" source="VNvTYN1yvB8yNp_CZ_hL-2" target="VNvTYN1yvB8yNp_CZ_hL-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="591" y="279" />
-              <mxPoint x="591" y="379" />
+              <mxPoint x="542.9512195121952" y="265.5" />
+              <mxPoint x="542.9512195121952" y="360.66129032258067" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-6" value="MinIO 4" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
-          <mxGeometry x="675" y="484" width="180" height="90" as="geometry" />
+          <mxGeometry x="620.1219512195122" y="460.58064516129036" width="165.3658536585366" height="85.64516129032259" as="geometry" />
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="VNvTYN1yvB8yNp_CZ_hL-20" source="VNvTYN1yvB8yNp_CZ_hL-2" target="VNvTYN1yvB8yNp_CZ_hL-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="590" y="279" />
-              <mxPoint x="590" y="529" />
+              <mxPoint x="542.0325203252032" y="265.5" />
+              <mxPoint x="542.0325203252032" y="503.40322580645164" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;对外提供服务&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
-          <mxGeometry x="90" y="239" width="130" height="30" as="geometry" />
+          <mxGeometry x="82.6829268292683" y="227.43548387096774" width="119.4308943089431" height="28.548387096774196" as="geometry" />
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;负载均衡&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
-          <mxGeometry x="459" y="234" width="90" height="26" as="geometry" />
+          <mxGeometry x="421.68292682926824" y="222.67741935483872" width="82.6829268292683" height="24.741935483870968" as="geometry" />
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-15" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;每台机器部署一个MinIO服务&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
-          <mxGeometry x="940" y="254" width="240" height="80" as="geometry" />
+          <mxGeometry x="863.5772357723577" y="241.70967741935485" width="220.4878048780488" height="76.12903225806451" as="geometry" />
         </mxCell>
         <mxCell id="VNvTYN1yvB8yNp_CZ_hL-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
-          <mxGeometry x="900" y="40" width="20" height="510" as="geometry" />
+          <mxGeometry x="826.8292682926829" y="38.064516129032256" width="18.3739837398374" height="485.32258064516134" as="geometry" />
         </mxCell>
-        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-19" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;本地存储架构&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
-          <mxGeometry x="90" y="90" width="160" height="40" as="geometry" />
+        <mxCell id="VNvTYN1yvB8yNp_CZ_hL-19" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;自建对象存储架构&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VNvTYN1yvB8yNp_CZ_hL-20">
+          <mxGeometry x="82.6829268292683" y="85.64516129032259" width="192.9268292682927" height="28.548387096774196" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
