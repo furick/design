@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T07:06:51.294Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RsNb7r9phGFh9RUkHFpF" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T07:12:11.093Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="D_zTGHTfq8aCNxXWUuWV" version="21.1.2" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
     <mxGraphModel dx="3088" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="-690" y="280" width="525" height="170" as="geometry" />
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-93" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="-590" y="680" width="1260" height="380" as="geometry" />
+          <mxGeometry x="-590" y="670" width="1260" height="380" as="geometry" />
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-91" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-260" y="540" width="920" height="70" as="geometry" />
@@ -27,7 +27,7 @@
         </mxCell>
         <mxCell id="8BzjSbciPG6FjHRtyO9h-1" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;上报转换结果&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="IynW-cATV-pzJD-m26w4-64">
           <mxGeometry x="0.3066" y="-1" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
+            <mxPoint x="-1" y="-59" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2hHQCEHZhG925bIhgHVo-1" value="Converter" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
@@ -148,7 +148,7 @@
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-87" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Websocket&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="IynW-cATV-pzJD-m26w4-4" vertex="1" connectable="0">
           <mxGeometry x="0.0718" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-5" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="IynW-cATV-pzJD-m26w4-2" target="2hHQCEHZhG925bIhgHVo-10" edge="1">
@@ -190,7 +190,7 @@
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-24" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;获取转换任务&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="IynW-cATV-pzJD-m26w4-23" vertex="1" connectable="0">
           <mxGeometry x="-0.6" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-21" y="37" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-43" value="proxy" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" parent="1" vertex="1">
@@ -262,6 +262,9 @@
         </mxCell>
         <mxCell id="8BzjSbciPG6FjHRtyO9h-19" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;上报转换结果&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="560" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="8BzjSbciPG6FjHRtyO9h-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1. 加速机房部署自建的S3存储，用于用户本地上传、下载加速&lt;br&gt;2. 用户如果可访问加速存储，则通过加速存储进行上传、下载行为&lt;br&gt;3. 用户如果无法访问加速存储，则访问远端COS存储&lt;br&gt;4.&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="60" width="540" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
