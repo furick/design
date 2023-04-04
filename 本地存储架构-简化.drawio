@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T07:49:33.495Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="VZ0CZEq8K5PsJRvG4YkA" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T07:58:22.203Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="5xpOMrxpW9B1UZoFMnwt" version="21.1.4" type="github">
   <diagram name="第 1 页" id="gfby3PmrfD_U8mLN3vST">
     <mxGraphModel dx="3088" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,7 +130,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2hHQCEHZhG925bIhgHVo-10" value="Edge Agent" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="2hHQCEHZhG925bIhgHVo-10" value="S3 Sync" style="rounded=1;whiteSpace=wrap;html=1;fontSize=22;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-255" y="855" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IynW-cATV-pzJD-m26w4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=block;startFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IynW-cATV-pzJD-m26w4-1" target="IynW-cATV-pzJD-m26w4-70" edge="1">
@@ -263,8 +263,8 @@
         <mxCell id="8BzjSbciPG6FjHRtyO9h-19" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;上报转换结果&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="560" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="8BzjSbciPG6FjHRtyO9h-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1. 加速机房部署自建的S3存储，用于用户本地上传、下载加速&lt;br&gt;2. 用户如果可访问加速存储，则通过加速存储进行上传、下载行为&lt;br&gt;3. 用户如果无法访问加速存储，则访问远端COS存储&lt;br&gt;4.&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-800" y="60" width="540" height="110" as="geometry" />
+        <mxCell id="8BzjSbciPG6FjHRtyO9h-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;1. 加速机房部署自建的S3存储，用于用户本地上传、下载加速&lt;br&gt;2. 用户如果可访问加速存储，则通过加速存储进行上传、下载行为&lt;br&gt;3. 用户如果无法访问加速存储，则访问远端COS存储&lt;br&gt;4. 加速机房通过s3 sync服务将本地文件同步到远端COS存储&lt;br&gt;5. 本地有边缘计算的需求，主要用于为arthub本地文件提供预览文件的转换生成、解压用户上传的压缩包等需求。这些服务依赖云端Cloud Core和本地的Edge Core服务协同，通过云端的k8s命令进行部署更新&lt;br&gt;6. 本地机房无法直接访问到云环境，目前通过devcloud上部署的proxy转发请求&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-930" y="40" width="720" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
