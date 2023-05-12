@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T08:31:29.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="G7MODpjRqqkB62HlifrK" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T08:51:02.836Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="mtX9xVKbcjDAV16nQYf4" version="21.2.9" type="github">
   <diagram name="第 1 页" id="B-tTFBU9TN1uPaQ3BuV3">
     <mxGraphModel dx="1434" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rumRnAknzUMu9uTPhc-8-38" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;仅本地&lt;/b&gt;&lt;/font&gt;&lt;br&gt;仅存在于本地，未同步至远端" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="rumRnAknzUMu9uTPhc-8-38" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;仅本地(L)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;仅存在于本地，未同步至远端" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="300" y="260" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5nYt6S0yfzJQ5EH9K08k-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="rumRnAknzUMu9uTPhc-8-39" target="rumRnAknzUMu9uTPhc-8-97" edge="1">
@@ -46,7 +46,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rumRnAknzUMu9uTPhc-8-39" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;仅远端&lt;/b&gt;&lt;/font&gt;&lt;br&gt;仅存在于远端" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="rumRnAknzUMu9uTPhc-8-39" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;仅远端(R)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;仅存在于远端" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="600" y="230" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rumRnAknzUMu9uTPhc-8-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="rumRnAknzUMu9uTPhc-8-40" target="rumRnAknzUMu9uTPhc-8-39" edge="1">
@@ -63,7 +63,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rumRnAknzUMu9uTPhc-8-40" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;已同步&lt;/b&gt;&lt;/font&gt;&lt;br&gt;存在于本地及远端" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="rumRnAknzUMu9uTPhc-8-40" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;已同步(S)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;存在于本地及远端" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="485" y="370" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rumRnAknzUMu9uTPhc-8-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;strokeColor=#1A1A1A;" parent="1" source="rumRnAknzUMu9uTPhc-8-38" target="rumRnAknzUMu9uTPhc-8-40" edge="1">
@@ -96,7 +96,7 @@
         <mxCell id="5nYt6S0yfzJQ5EH9K08k-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="rumRnAknzUMu9uTPhc-8-88" target="rumRnAknzUMu9uTPhc-8-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rumRnAknzUMu9uTPhc-8-88" value="&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;远端修改&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;两端都有文件，文件仅在远端发生修改" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="rumRnAknzUMu9uTPhc-8-88" value="&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;远端修改(RM)&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;两端都有文件，文件仅在远端发生修改" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="610" y="520" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5nYt6S0yfzJQ5EH9K08k-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="rumRnAknzUMu9uTPhc-8-89" target="rumRnAknzUMu9uTPhc-8-97" edge="1">
@@ -110,7 +110,7 @@
         <mxCell id="5nYt6S0yfzJQ5EH9K08k-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="rumRnAknzUMu9uTPhc-8-89" target="rumRnAknzUMu9uTPhc-8-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rumRnAknzUMu9uTPhc-8-89" value="&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;本地修改&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;两端都有文件，文件仅在本地发生修改" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="rumRnAknzUMu9uTPhc-8-89" value="&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;本地修改(LM)&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;两端都有文件，文件仅在本地发生修改" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="320" y="490" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5nYt6S0yfzJQ5EH9K08k-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="rumRnAknzUMu9uTPhc-8-97" target="rumRnAknzUMu9uTPhc-8-40" edge="1">
@@ -121,7 +121,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rumRnAknzUMu9uTPhc-8-97" value="&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;双端修改&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;两端都有文件，两端都发生了文件修改" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="rumRnAknzUMu9uTPhc-8-97" value="&lt;font style=&quot;border-color: var(--border-color); font-size: 15px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;双端修改(BM)&lt;/b&gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;两端都有文件，两端都发生了文件修改" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="400" y="630" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5nYt6S0yfzJQ5EH9K08k-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="rumRnAknzUMu9uTPhc-8-38" target="rumRnAknzUMu9uTPhc-8-38" edge="1">
@@ -356,7 +356,7 @@
             <mxPoint x="504" y="1971" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cfFCV89mZV4dh-1LWQz5-54" value="本地存储可访问&lt;br&gt;下载时序 （FileStat=OnlyLocal Or LocalModify Or Sync)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-54" value="本地存储可访问&lt;br&gt;下载时序 （FileStat=L Or LM Or S)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="1570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cfFCV89mZV4dh-1LWQz5-57" value="Local Store" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -422,7 +422,7 @@
             <mxPoint x="766.5" y="2541" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cfFCV89mZV4dh-1LWQz5-72" value="本地存储可访问&lt;br&gt;下载时序 （FileStat=RemoteModify Or OnlyRemote)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-72" value="本地存储可访问&lt;br&gt;下载时序 （FileStat=RM Or R)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="2160" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cfFCV89mZV4dh-1LWQz5-73" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
@@ -533,7 +533,7 @@
             <mxPoint x="768.5" y="3200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cfFCV89mZV4dh-1LWQz5-94" value="本地存储可访问&lt;br&gt;下载时序 （FileStat=BothModify)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-94" value="本地存储可访问&lt;br&gt;下载时序 （FileStat=BM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="112" y="2790" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cfFCV89mZV4dh-1LWQz5-95" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
@@ -659,7 +659,7 @@
             <mxPoint x="711.5" y="4141" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cfFCV89mZV4dh-1LWQz5-157" value="本地存储不可访问&lt;br&gt;下载时序 （FileStat=Sync Or RemoteModify Or OnlyRemote)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-157" value="本地存储不可访问&lt;br&gt;下载时序 （FileStat=S Or RM Or R)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="55" y="3760" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cfFCV89mZV4dh-1LWQz5-158" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
@@ -722,7 +722,7 @@
             <mxPoint x="138.5" y="4591" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cfFCV89mZV4dh-1LWQz5-195" value="本地存储不可访问&lt;br&gt;下载时序 （FileStat=OnlyLocal)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-195" value="本地存储不可访问&lt;br&gt;下载时序 （FileStat=L)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="75" y="4300" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cfFCV89mZV4dh-1LWQz5-198" value="make high priority &lt;br&gt;fo transfer this file&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
@@ -800,7 +800,7 @@
             <mxPoint x="160.5" y="5141" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cfFCV89mZV4dh-1LWQz5-214" value="本地存储不可访问&lt;br&gt;下载时序 （FileStat=LocalModify)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-214" value="本地存储不可访问&lt;br&gt;下载时序 （FileStat=LM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="97" y="4850" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cfFCV89mZV4dh-1LWQz5-215" value="make high priority &lt;br&gt;fo transfer this file&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=horizontal;curved=0;rounded=0;" edge="1" parent="1">
@@ -920,7 +920,7 @@
             <mxPoint x="787.5" y="5900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cfFCV89mZV4dh-1LWQz5-282" value="本地存储不可访问&lt;br&gt;下载时序 （FileStat=BothModify)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-282" value="本地存储不可访问&lt;br&gt;下载时序 （FileStat=BM)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="132" y="5590" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cfFCV89mZV4dh-1LWQz5-283" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
