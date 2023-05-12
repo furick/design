@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T06:17:05.144Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="9pMko34v8HF2aQb394UE" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T06:20:36.314Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="kBzICWfsHfBhBn394tR2" version="21.2.9" type="github">
   <diagram name="第 1 页" id="B-tTFBU9TN1uPaQ3BuV3">
     <mxGraphModel dx="1434" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -506,7 +506,7 @@
             <mxPoint x="761.5" y="3421" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cfFCV89mZV4dh-1LWQz5-94" value="远端下载时序 （FileStat=OnlyRemote )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-94" value="本地下载时序 （FileStat=BothModify)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="105" y="3040" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cfFCV89mZV4dh-1LWQz5-95" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
