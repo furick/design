@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T06:47:56.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="idJ18Be3b7BvlNPkTbmE" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T06:50:22.672Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="uHHUxwJWL2srFkJhC23d" version="21.2.9" type="github">
   <diagram name="第 1 页" id="B-tTFBU9TN1uPaQ3BuV3">
     <mxGraphModel dx="1434" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-119" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="3670" width="750" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-117" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="3420" width="750" height="220" as="geometry" />
+        </mxCell>
         <mxCell id="cfFCV89mZV4dh-1LWQz5-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="115" y="1161" width="670" height="130" as="geometry" />
         </mxCell>
@@ -589,6 +595,12 @@
             <mxPoint x="520" y="3870" as="sourcePoint" />
             <mxPoint x="340" y="3870" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-118" value="if remote file is newer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="3600" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-120" value="if local file is newer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="3880" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
