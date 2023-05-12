@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-12T03:26:15.939Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="LsOjTnIhmrsaq9Ta4duu" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T03:53:02.695Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Vih4elixEzA32gkcvXbx" version="21.2.9" type="github">
   <diagram name="第 1 页" id="B-tTFBU9TN1uPaQ3BuV3">
     <mxGraphModel dx="1434" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,6 +280,168 @@
         </mxCell>
         <mxCell id="cfFCV89mZV4dh-1LWQz5-29" value="上传时序" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="830" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-31" value="Local Store" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="460" y="1650" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cfFCV89mZV4dh-1LWQz5-31">
+          <mxGeometry x="45" y="291" width="10" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cfFCV89mZV4dh-1LWQz5-31">
+          <mxGeometry x="45" y="370" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-56" value="add file visist count" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="cfFCV89mZV4dh-1LWQz5-55" parent="cfFCV89mZV4dh-1LWQz5-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="340" />
+              <mxPoint x="120" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-34" value="Remote Store" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="700" y="1650" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-37" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="100" y="1650" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cfFCV89mZV4dh-1LWQz5-37">
+          <mxGeometry x="45" y="100" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-39" value="Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="270" y="1650" width="100" height="601" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cfFCV89mZV4dh-1LWQz5-39">
+          <mxGeometry x="45" y="100" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-44" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="155" y="1781" as="sourcePoint" />
+            <mxPoint x="315" y="1781" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-45" value="Request Sign" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfFCV89mZV4dh-1LWQz5-44">
+          <mxGeometry x="0.1375" y="4" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-46" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="326" y="1801" as="sourcePoint" />
+            <mxPoint x="326" y="1841" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="356" y="1841" />
+              <mxPoint x="376" y="1821" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-47" value="GetFileStat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1811" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-48" value="return signature" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="314" y="1881" as="sourcePoint" />
+            <mxPoint x="153.5" y="1881" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-49" value="download Filel&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="159" y="1971" as="sourcePoint" />
+            <mxPoint x="504" y="1971" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-54" value="本地下载时序 （FileStat=OnlyLocal Or LocalModify Or Sync)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-57" value="Local Store" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="480" y="2390" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cfFCV89mZV4dh-1LWQz5-57">
+          <mxGeometry x="45" y="370" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-61" value="Remote Store" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="720" y="2390" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cfFCV89mZV4dh-1LWQz5-61">
+          <mxGeometry x="45" y="301" width="10" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-62" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="120" y="2390" width="100" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-63" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cfFCV89mZV4dh-1LWQz5-62">
+          <mxGeometry x="45" y="100" width="10" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-64" value="Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="290" y="2390" width="100" height="601" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cfFCV89mZV4dh-1LWQz5-64">
+          <mxGeometry x="45" y="100" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="cfFCV89mZV4dh-1LWQz5-64">
+          <mxGeometry x="45" y="430" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-66" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="175" y="2521" as="sourcePoint" />
+            <mxPoint x="335" y="2521" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-67" value="Request Sign" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cfFCV89mZV4dh-1LWQz5-66">
+          <mxGeometry x="0.1375" y="4" relative="1" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-68" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="346" y="2541" as="sourcePoint" />
+            <mxPoint x="346" y="2581" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="376" y="2581" />
+              <mxPoint x="396" y="2561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-69" value="GetFileStat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2551" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-70" value="return signature" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="334" y="2621" as="sourcePoint" />
+            <mxPoint x="173.5" y="2621" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-71" value="download File&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="176" y="2711" as="sourcePoint" />
+            <mxPoint x="766.5" y="2711" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-72" value="本地下载时序 （FileStat=RemoteModify Or OnlyRemote)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-73" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="764.5" y="2740" as="sourcePoint" />
+            <mxPoint x="175" y="2740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-75" value="cache File&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="535" y="2780" as="sourcePoint" />
+            <mxPoint x="764.5" y="2780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-76" value="download file" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765.5" y="2814" as="sourcePoint" />
+            <mxPoint x="536" y="2814" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfFCV89mZV4dh-1LWQz5-78" value="save filestat to &quot;sync&quot;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="cfFCV89mZV4dh-1LWQz5-59" target="cfFCV89mZV4dh-1LWQz5-77">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="520" y="2860" as="sourcePoint" />
+            <mxPoint x="470" y="2860" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
