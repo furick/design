@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T09:38:17.090Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="x2VJZV1hH7lJCtrs0i1N" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T09:45:19.894Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="BlDCIm0wEIBg52NR2695" version="21.3.7" type="github">
   <diagram name="第 1 页" id="u9xsWpQFxnqnGb84cIbE">
     <mxGraphModel dx="1434" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="U18qFELPGXhDUwl8TsIR-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="150" width="690" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-1" value="Account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-1" value="Auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U18qFELPGXhDUwl8TsIR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="U18qFELPGXhDUwl8TsIR-2" target="U18qFELPGXhDUwl8TsIR-7">
@@ -85,7 +85,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-19" value="1.认证信令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-18">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-19" value="1.认证信令，&lt;br&gt;先锋用户访问Gmve会带上token及用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-18">
           <mxGeometry x="-0.2288" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -123,14 +123,11 @@
             <mxPoint x="530" y="279.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-33" value="每个用户登录，先锋都会在Account中注册访问票据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-33" value="每个用户登录，先锋都会在Auth中注册访问票据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="230" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U18qFELPGXhDUwl8TsIR-34" value="先锋云游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-38" value="先锋用户访问Gmve会带上token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="290" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
