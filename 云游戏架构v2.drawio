@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T11:14:03.834Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="HS0lZM81XiwjLwh3EtMg" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T11:35:52.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="OULhfmaONmk-3L1nvHKY" version="21.3.7" type="github">
   <diagram name="第 1 页" id="KFr_V3IDYiVvCqJVnuYE">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aFgmtJG0G8zS7e_krV5p-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="650" width="690" height="310" as="geometry" />
+          <mxGeometry x="300" y="650" width="900" height="310" as="geometry" />
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="150" width="690" height="370" as="geometry" />
@@ -25,7 +25,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aFgmtJG0G8zS7e_krV5p-62" value="创建EC，生成随机私钥并注入EC环境变量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-61">
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-62" value="4. 创建EC，生成随机私钥并注入EC环境变量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-61">
           <mxGeometry x="-0.4016" y="-4" relative="1" as="geometry">
             <mxPoint x="24" as="offset" />
           </mxGeometry>
@@ -41,6 +41,13 @@
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-38" value="CENTER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-40" target="aFgmtJG0G8zS7e_krV5p-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="795" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-40" value="Instance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="780" width="120" height="30" as="geometry" />
@@ -63,10 +70,10 @@
           <mxGeometry x="530" y="710" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-44" value="EC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="750" width="120" height="170" as="geometry" />
+          <mxGeometry x="860" y="750" width="120" height="170" as="geometry" />
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-45" value="EC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="750" width="120" height="170" as="geometry" />
+          <mxGeometry x="1020" y="750" width="120" height="170" as="geometry" />
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-46" value="EDGE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="670" width="60" height="30" as="geometry" />
@@ -87,7 +94,7 @@
         <mxCell id="aFgmtJG0G8zS7e_krV5p-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-51" target="aFgmtJG0G8zS7e_krV5p-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aFgmtJG0G8zS7e_krV5p-76" value="0.进入游戏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-75">
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-76" value="1.进入游戏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-75">
           <mxGeometry x="-0.3348" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -108,7 +115,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="390" y="950" />
-              <mxPoint x="740" y="950" />
+              <mxPoint x="920" y="950" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -116,7 +123,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="390" y="950" />
-              <mxPoint x="900" y="950" />
+              <mxPoint x="1080" y="950" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -148,11 +155,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-69" target="aFgmtJG0G8zS7e_krV5p-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="90" />
+              <mxPoint x="750" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-69" value="先锋云游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-74" value="针对用户的设备申请，生成随机私钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-78" value="3. 申请创建一个设备" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="68" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-80" value="5. 建立链路" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="588" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
