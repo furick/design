@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T09:18:08.755Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="oa-pdOyHTpc77mJLxPgT" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T11:14:03.834Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="HS0lZM81XiwjLwh3EtMg" version="21.3.7" type="github">
   <diagram name="第 1 页" id="KFr_V3IDYiVvCqJVnuYE">
-    <mxGraphModel dx="1434" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,8 +10,25 @@
         <mxCell id="aFgmtJG0G8zS7e_krV5p-29" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="150" width="690" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="aFgmtJG0G8zS7e_krV5p-30" value="Account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-30" target="aFgmtJG0G8zS7e_krV5p-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-30" value="Auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-33" target="aFgmtJG0G8zS7e_krV5p-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1090" y="280" />
+              <mxPoint x="1090" y="530" />
+              <mxPoint x="560" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-62" value="创建EC，生成随机私钥并注入EC环境变量" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-61">
+          <mxGeometry x="-0.4016" y="-4" relative="1" as="geometry">
+            <mxPoint x="24" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-33" value="Edge-Scheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="250" width="120" height="60" as="geometry" />
@@ -31,6 +48,14 @@
         <mxCell id="aFgmtJG0G8zS7e_krV5p-41" value="CloudGame" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="810" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-42" target="aFgmtJG0G8zS7e_krV5p-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-66" value="出流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-65">
+          <mxGeometry x="0.2777" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-42" value="WebRTC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="870" width="120" height="60" as="geometry" />
         </mxCell>
@@ -46,17 +71,38 @@
         <mxCell id="aFgmtJG0G8zS7e_krV5p-46" value="EDGE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="670" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-51" target="aFgmtJG0G8zS7e_krV5p-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-64" value="通过Nginx访问到具体的EC Pod" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-63">
+          <mxGeometry x="-0.272" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-71" value="认证时会带上token和用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-63">
+          <mxGeometry x="0.416" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-51" target="aFgmtJG0G8zS7e_krV5p-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-76" value="0.进入游戏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-75">
+          <mxGeometry x="-0.3348" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-51" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="730" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aFgmtJG0G8zS7e_krV5p-53" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-53" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-69">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="279.5" as="sourcePoint" />
             <mxPoint x="530" y="279.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aFgmtJG0G8zS7e_krV5p-54" value="每个用户登录，先锋都会在Account中注册访问票据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="230" width="150" height="40" as="geometry" />
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-54" value="每个用户申请到一路设备，就在Auth中注册一组票据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-55" target="aFgmtJG0G8zS7e_krV5p-44">
           <mxGeometry relative="1" as="geometry">
@@ -87,6 +133,26 @@
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-56" value="Gate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="750" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-56" target="aFgmtJG0G8zS7e_krV5p-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="765" />
+              <mxPoint x="650" y="720" />
+              <mxPoint x="590" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-68" value="鉴权通过私钥AESf" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-67">
+          <mxGeometry x="-0.3333" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-69" value="先锋云游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-74" value="针对用户的设备申请，生成随机私钥" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="220" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
