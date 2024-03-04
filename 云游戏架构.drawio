@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T09:45:19.894Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="BlDCIm0wEIBg52NR2695" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T09:48:28.238Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="MdWDEcJMpBRBLoQ8SmED" version="21.3.7" type="github">
   <diagram name="第 1 页" id="u9xsWpQFxnqnGb84cIbE">
     <mxGraphModel dx="1434" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-19" value="1.认证信令，&lt;br&gt;先锋用户访问Gmve会带上token及用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-18">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-19" value="1.认证信令，&lt;br&gt;先锋用户访问Gmve会带上票据及用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-18">
           <mxGeometry x="-0.2288" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -106,7 +106,7 @@
         <mxCell id="U18qFELPGXhDUwl8TsIR-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U18qFELPGXhDUwl8TsIR-15" target="U18qFELPGXhDUwl8TsIR-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-36" value="0.首次登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-35">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-36" value="0.进入游戏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-35">
           <mxGeometry x="0.2" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -123,7 +123,7 @@
             <mxPoint x="530" y="279.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-33" value="每个用户登录，先锋都会在Auth中注册访问票据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-33" value="每个用户申请到一路设备，就在Auth中注册一组票据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="230" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U18qFELPGXhDUwl8TsIR-34" value="先锋云游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
