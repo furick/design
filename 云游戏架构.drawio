@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T09:49:23.172Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="kT65HPd9Xn2OcYo0-t5v" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T11:27:54.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="hpd_Mu3JOwGGxBvA15Nl" version="21.3.7" type="github">
   <diagram name="第 1 页" id="u9xsWpQFxnqnGb84cIbE">
     <mxGraphModel dx="1434" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-23" value="2.认证成功，拉起EC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-22">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-23" value="4. scheduler拉起EC,并告知调用方" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-22">
           <mxGeometry x="0.1111" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -31,14 +31,22 @@
           <mxGeometry x="690" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U18qFELPGXhDUwl8TsIR-3" value="EC-Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="400" width="120" height="60" as="geometry" />
+          <mxGeometry x="760" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U18qFELPGXhDUwl8TsIR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="U18qFELPGXhDUwl8TsIR-4" target="U18qFELPGXhDUwl8TsIR-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-21" value="1.认证用户token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-20">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-21" value="7.认证用户token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-20">
           <mxGeometry x="-0.2444" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U18qFELPGXhDUwl8TsIR-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="U18qFELPGXhDUwl8TsIR-4" target="U18qFELPGXhDUwl8TsIR-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U18qFELPGXhDUwl8TsIR-44" value="信令转发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-43">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="U18qFELPGXhDUwl8TsIR-4" value="Gate" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -47,12 +55,12 @@
         <mxCell id="U18qFELPGXhDUwl8TsIR-6" value="CENTER" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-27" value="3.建立链路" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="U18qFELPGXhDUwl8TsIR-7" target="U18qFELPGXhDUwl8TsIR-3">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-27" value="5. 建立链路" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U18qFELPGXhDUwl8TsIR-7" target="U18qFELPGXhDUwl8TsIR-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="590" y="770" />
-              <mxPoint x="590" y="480" />
-              <mxPoint x="750" y="480" />
+              <mxPoint x="590" y="490" />
+              <mxPoint x="820" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -85,7 +93,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-19" value="1.认证信令，&lt;br&gt;先锋用户访问Gmve会带上&lt;br&gt;票据、用户信息、要访问的设备" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-18">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-19" value="6.创建信令服链接，&lt;br&gt;先锋用户访问Gmve会带上&lt;br&gt;票据、用户信息、要访问的设备" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-18">
           <mxGeometry x="-0.2288" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -98,7 +106,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-29" value="4. 出流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-28">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-29" value="8.出流" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-28">
           <mxGeometry x="0.1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -106,7 +114,7 @@
         <mxCell id="U18qFELPGXhDUwl8TsIR-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="U18qFELPGXhDUwl8TsIR-15" target="U18qFELPGXhDUwl8TsIR-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-36" value="0.进入游戏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-35">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-36" value="1.进入游戏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U18qFELPGXhDUwl8TsIR-35">
           <mxGeometry x="0.2" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -123,14 +131,25 @@
             <mxPoint x="530" y="279.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="U18qFELPGXhDUwl8TsIR-33" value="每个用户申请到一路设备，就在Auth中注册一组票据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U18qFELPGXhDUwl8TsIR-33" value="2. 每个用户申请到一路设备，就在Auth中注册一组票据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="230" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U18qFELPGXhDUwl8TsIR-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="U18qFELPGXhDUwl8TsIR-34" target="U18qFELPGXhDUwl8TsIR-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="110" />
+              <mxPoint x="750" y="110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="U18qFELPGXhDUwl8TsIR-34" value="先锋云游戏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U18qFELPGXhDUwl8TsIR-39" value="返回票据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="290" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U18qFELPGXhDUwl8TsIR-42" value="3.申请创建一个设备" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
