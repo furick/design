@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T11:35:52.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="OULhfmaONmk-3L1nvHKY" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T11:38:42.275Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="WVMpI4hQNYIHTWnut4Lv" version="21.3.7" type="github">
   <diagram name="第 1 页" id="KFr_V3IDYiVvCqJVnuYE">
     <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,14 +81,14 @@
         <mxCell id="aFgmtJG0G8zS7e_krV5p-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-51" target="aFgmtJG0G8zS7e_krV5p-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aFgmtJG0G8zS7e_krV5p-64" value="通过Nginx访问到具体的EC Pod" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-63">
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-64" value="通过Nginx访问到具体的EC Pod的信令服" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#000000;" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-63">
           <mxGeometry x="-0.272" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-71" value="认证时会带上token和用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-63">
           <mxGeometry x="0.416" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-17" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-51" target="aFgmtJG0G8zS7e_krV5p-69">
@@ -100,7 +100,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-51" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="730" width="30" height="60" as="geometry" />
+          <mxGeometry x="40" y="735" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-53" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-69">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -150,9 +150,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aFgmtJG0G8zS7e_krV5p-68" value="鉴权通过私钥AESf" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-67">
+        <mxCell id="aFgmtJG0G8zS7e_krV5p-68" value="鉴权通过私钥AES解密token&lt;br&gt;认证用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;labelBackgroundColor=none;" vertex="1" connectable="0" parent="aFgmtJG0G8zS7e_krV5p-67">
           <mxGeometry x="-0.3333" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="2" y="-40" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aFgmtJG0G8zS7e_krV5p-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aFgmtJG0G8zS7e_krV5p-69" target="aFgmtJG0G8zS7e_krV5p-33">
